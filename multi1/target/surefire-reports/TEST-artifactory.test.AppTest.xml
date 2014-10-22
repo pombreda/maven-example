@@ -2,7 +2,7 @@
 <testsuite failures="0" time="0" errors="0" skipped="0" tests="0" name="artifactory.test.AppTest">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="maven-example-dep"/>
+    <property name="JOB_NAME" value="maven-example"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -10,7 +10,7 @@
     <property name="HUDSON_SERVER_COOKIE" value="cd8e644d6357079c"/>
     <property name="POM_ARTIFACTID" value="multi"/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="BUILDINFO_PROPFILE" value="C:\Users\Itamar\AppData\Local\Temp\buildInfo3614742016881386147.properties"/>
+    <property name="BUILDINFO_PROPFILE" value="C:\Users\Itamar\AppData\Local\Temp\buildInfo1723565723743217488.properties"/>
     <property name="sun.boot.class.path" value="C:\Software\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Software\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Software\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Software\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Software\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Software\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Software\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Software\Java\jdk1.7.0_67\jre\classes"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="user.country.format" value="IL"/>
@@ -30,7 +30,7 @@
     <property name="extractor.used" value="true"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="BUILD_DISPLAY_NAME" value="#80"/>
     <property name="sun.boot.library.path" value="C:\Software\Java\jdk1.7.0_67\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\Itamar\AppData\Local"/>
     <property name="java.version" value="1.7.0_67"/>
@@ -40,7 +40,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Software\Java\jdk1.7.0_67\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="2014-10-21_00-47-02"/>
+    <property name="BUILD_ID" value="2014-10-22_03-52-57"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1255"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -55,11 +55,12 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.3"/>
     <property name="RADLE_HOME" value="C:\Software\Gradle\gradle-1.7"/>
-    <property name="POM_VERSION" value="2.18-SNAPSHOT"/>
+    <property name="POM_VERSION" value="3"/>
     <property name="TMP" value="C:\Users\Itamar\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="24.65-b04"/>
     <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="e4998f69505b3f20025cf842d14176ce5edd7eca"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="ITAMAR"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -78,7 +79,7 @@
     <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
     <property name="user.home" value="C:\Users\Itamar"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-maven-example-dep-5"/>
+    <property name="BUILD_TAG" value="jenkins-maven-example-80"/>
     <property name="JENKINS_SERVER_COOKIE" value="cd8e644d6357079c"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -92,7 +93,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Software\Maven\apache-maven-3.1.1"/>
     <property name="java.class.path" value="C:\Users\Itamar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Software\Maven\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar;C:\Software\Maven\apache-maven-3.1.1/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Software\Maven\apache-maven-3.1.1 C:\Users\Itamar\.jenkins\war\WEB-INF\lib\remoting-2.46.jar C:\Users\Itamar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\Itamar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 63581"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Software\Maven\apache-maven-3.1.1 C:\Users\Itamar\.jenkins\war\WEB-INF\lib\remoting-2.46.jar C:\Users\Itamar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\Itamar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 52930"/>
     <property name="Path" value="C:\Software\Java\jdk1.7.0_67/bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;C:\Program Files\nodejs\;C:\Software\NuGet;C:\Software\curl\7.33;C:\Software\Maven\apache-maven-3.2.1\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\OpenVPN\bin;C:\Software\Gradle\gradle-1.7\bin;C:\Ruby193\bin;C:\Users\Itamar\AppData\Roaming\npm"/>
     <property name="RUBYGEMS_HOST" value="http://localhost:8081/artifactory/api/gems/gem-local"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -109,33 +110,36 @@
     <property name="HUDSON_HOME" value="C:\Users\Itamar\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Software\Maven\apache-maven-3.1.1/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/maven-example-dep/5/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/maven-example/80/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="buildInfoConfig.propertiesFile" value="C:\Users\Itamar\AppData\Local\Temp\buildInfo3614742016881386147.properties"/>
+    <property name="buildInfoConfig.propertiesFile" value="C:\Users\Itamar\AppData\Local\Temp\buildInfo1723565723743217488.properties"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="SystemRoot" value="C:\Windows"/>
     <property name="java.ext.dirs" value="C:\Software\Java\jdk1.7.0_67\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Projects\project-examples\maven-example"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/maven-example-dep/"/>
+    <property name="user.dir" value="C:\Users\Itamar\.jenkins\jobs\maven-example\workspace"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/maven-example/"/>
     <property name="LOGONSERVER" value="\\MicrosoftAccount"/>
     <property name="USERDOMAIN" value="ITAMAR"/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="C:\Software\Maven\apache-maven-3.1.1"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
+    <property name="BUILD_NUMBER" value="80"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="e4998f69505b3f20025cf842d14176ce5edd7eca"/>
     <property name="=C:" value="c:\Software\Jenkins\1.583"/>
     <property name="file.encoding" value="Cp1255"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Users\Itamar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
-    <property name="WORKSPACE" value="C:\Users\Itamar\.jenkins\jobs\maven-example-dep\workspace"/>
+    <property name="WORKSPACE" value="C:\Users\Itamar\.jenkins\jobs\maven-example\workspace"/>
     <property name="maven3.interceptor.common" value="C:\Users\Itamar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="GIT_URL" value="https://github.com/itamarb/maven-example.git"/>
   </properties>
 </testsuite>
