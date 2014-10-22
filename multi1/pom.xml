@@ -85,10 +85,11 @@
             <scope>test</scope>
         </dependency>
 		<dependency>
-    <groupId>org.jfrog.test</groupId>
-    <artifactId>multi2</artifactId>
-    <version>3</version>
+    <groupId>com.wadpam.openserver</groupId>
+    <artifactId>test</artifactId>
+    <version>20</version>
 </dependency>
+
 
     </dependencies>
 
