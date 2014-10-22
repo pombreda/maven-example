@@ -1,22 +1,43 @@
 {
   "name" : "maven-example",
   "type" : "MAVEN",
-  "number" : "80",
+  "number" : "82",
   "version" : "1.0.1",
-  "url" : "http://localhost:8080/job/maven-example/80/",
+  "url" : "http://localhost:8080/job/maven-example/82/",
   "modules" : [ {
-    "id" : "org.jfrog.test:multi:3.1",
+    "id" : "org.jfrog.test:multi:3.2",
     "artifacts" : [ {
-      "name" : "multi-3.1.pom",
+      "name" : "multi-3.2.pom",
       "type" : "pom",
-      "md5" : "2340027677bd545c5efea22261a8986f",
-      "sha1" : "91b1be253c9c88a7ec8fa40287ba20fb04020dec"
+      "md5" : "94644bee779669764dc34437b23e3fac",
+      "sha1" : "861ad79c0130d68c202f656ee71b5ea9f910e026"
     } ],
     "properties" : {
       "project.build.sourceEncoding" : "UTF-8"
     }
   }, {
-    "id" : "org.jfrog.test:multi1:3.1",
+    "id" : "org.jfrog.test:multi1:3.2",
+    "artifacts" : [ {
+      "name" : "multi1-3.2-tests.jar",
+      "type" : "test-jar",
+      "md5" : "c3e6da4a2793541d98f164ef772b4308",
+      "sha1" : "b0e5d4055b9539e1dced2f04a73c93dc97b656e9"
+    }, {
+      "name" : "multi1-3.2-sources.jar",
+      "type" : "java-source-jar",
+      "md5" : "f518f531769200c8193fb384baeeabdd",
+      "sha1" : "3ca620c0ffe07b378b73616b8cc0307d843450f4"
+    }, {
+      "name" : "multi1-3.2.jar",
+      "type" : "jar",
+      "md5" : "781f315b1d8edfb4d11a1f2abdd5bdec",
+      "sha1" : "3695688572b6dd81d6394af0c085adc63158a46e"
+    }, {
+      "name" : "multi1-3.2.pom",
+      "type" : "pom",
+      "md5" : "ae7c4e4f3e79883631ecd847850bf704",
+      "sha1" : "83cccd4da51bbb8bfd443576523798255d0198e3"
+    } ],
     "dependencies" : [ {
       "id" : "com.google.appengine:appengine-testing:1.7.5",
       "scopes" : [ "compile" ],
@@ -246,32 +267,22 @@
       "md5" : "207b1efb2059ccf1ffec1e84e70d6780",
       "sha1" : "1faf6a6438c43d273b6f2f7996d4a6d900b55b5a"
     } ],
-    "artifacts" : [ {
-      "name" : "multi1-3.1-tests.jar",
-      "type" : "test-jar",
-      "md5" : "224ee7253851bed7b2a2655294fec698",
-      "sha1" : "cf1da0d99e6415c29a87ce715fa7c5f4057c9538"
-    }, {
-      "name" : "multi1-3.1.jar",
-      "type" : "jar",
-      "md5" : "846637a4669a11d8c22904302b57574c",
-      "sha1" : "95873be8d440f21f985d4a268f797f172909c65e"
-    }, {
-      "name" : "multi1-3.1.pom",
-      "type" : "pom",
-      "md5" : "74f0ffb87dd7c1dff6963ab0102fc798",
-      "sha1" : "413335bd99a4042fdee8c39c276d88cf7e0b4584"
-    }, {
-      "name" : "multi1-3.1-sources.jar",
-      "type" : "java-source-jar",
-      "md5" : "b22e4b075996c602bf50c47b7d107f95",
-      "sha1" : "ae2553acf9cde8fb3bff7f30a2eead3684021610"
-    } ],
     "properties" : {
       "project.build.sourceEncoding" : "UTF-8"
     }
   }, {
-    "id" : "org.jfrog.test:multi2:3.1",
+    "id" : "org.jfrog.test:multi2:3.2",
+    "artifacts" : [ {
+      "name" : "multi2-3.2.jar",
+      "type" : "jar",
+      "md5" : "3c5cfc54e5817979126cfcec8ea00b6a",
+      "sha1" : "32d3f7807509e77ff4b710f908e1150df7210e40"
+    }, {
+      "name" : "multi2-3.2.pom",
+      "type" : "pom",
+      "md5" : "7e9328eae8dd0f406f369e6aecee1d0a",
+      "sha1" : "46b068812eb8de1f31da645a758b06ed5f34d365"
+    } ],
     "dependencies" : [ {
       "id" : "junit:junit:3.8.1",
       "scopes" : [ "test" ],
@@ -279,23 +290,23 @@
       "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
       "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f"
     } ],
-    "artifacts" : [ {
-      "name" : "multi2-3.1.jar",
-      "type" : "jar",
-      "md5" : "f6b01225111a8fb1fc911c722f12530c",
-      "sha1" : "eb039399ac77ae05a5a54aba4d68d9aa65adc336"
-    }, {
-      "name" : "multi2-3.1.pom",
-      "type" : "pom",
-      "md5" : "91116c58229a30d51c68d1b73644e41a",
-      "sha1" : "9aaf4adda62d6d5b79122bfc3c47803b4cf5062d"
-    } ],
     "properties" : {
-      "daversion" : "3.1",
+      "daversion" : "3.2",
       "project.build.sourceEncoding" : "UTF-8"
     }
   }, {
-    "id" : "org.jfrog.test:multi3:3.1",
+    "id" : "org.jfrog.test:multi3:3.2",
+    "artifacts" : [ {
+      "name" : "multi3-3.2.war",
+      "type" : "war",
+      "md5" : "9dc3ec5bf848e864b93d0036c721cae1",
+      "sha1" : "8139b63092ee02471cefdeadbc2e288dc56c2773"
+    }, {
+      "name" : "multi3-3.2.pom",
+      "type" : "pom",
+      "md5" : "8599f0f7ded70cd6e6a348110bf47f6c",
+      "sha1" : "87fbedbf6ff90e532668a1f1cc57b2773c9515ed"
+    } ],
     "dependencies" : [ {
       "id" : "com.google.appengine:appengine-testing:1.7.5",
       "scopes" : [ "compile" ],
@@ -320,12 +331,6 @@
       "type" : "jar",
       "md5" : "dc0db190914c99e79af57ba2fa295659",
       "sha1" : "cb7336e8d9fd4a3803a809641c5b545d644f5829"
-    }, {
-      "id" : "org.jfrog.test:multi1:3.1",
-      "scopes" : [ "compile" ],
-      "type" : "jar",
-      "md5" : "846637a4669a11d8c22904302b57574c",
-      "sha1" : "95873be8d440f21f985d4a268f797f172909c65e"
     }, {
       "id" : "com.wadpam.openserver:errors:20",
       "scopes" : [ "compile" ],
@@ -507,6 +512,12 @@
       "md5" : "bcdbe7255cbbd2fb3e21072534a8b358",
       "sha1" : "86c4addda0ba949b66b3e1b9b561ed39b874aaf9"
     }, {
+      "id" : "org.jfrog.test:multi1:3.2",
+      "scopes" : [ "compile" ],
+      "type" : "jar",
+      "md5" : "781f315b1d8edfb4d11a1f2abdd5bdec",
+      "sha1" : "3695688572b6dd81d6394af0c085adc63158a46e"
+    }, {
       "id" : "javax.servlet.jsp:jsp-api:2.1",
       "scopes" : [ "compile" ],
       "type" : "jar",
@@ -537,65 +548,54 @@
       "md5" : "7df83e09e41d742cc5fb20d16b80729c",
       "sha1" : "7e9978fdb754bce5fcd5161133e7734ecb683036"
     } ],
-    "artifacts" : [ {
-      "name" : "multi3-3.1.war",
-      "type" : "war",
-      "md5" : "263ea9b84e7b1f51fa42b6bb712482ab",
-      "sha1" : "9ca7039123e3fe70fc65d626bfb1548adb304ea2"
-    }, {
-      "name" : "multi3-3.1.pom",
-      "type" : "pom",
-      "md5" : "2b6cab363f066b3823548bbf99391208",
-      "sha1" : "1a178be6bdebd20927d95853dbd0eaf6b8e0df73"
-    } ],
     "properties" : {
       "project.build.sourceEncoding" : "UTF-8"
     }
   } ],
-  "buildAgent" : {
-    "name" : "Maven",
-    "version" : "3.1.1"
-  },
+  "vcsRevision" : "285d9927121f9bd129ef7ea2b4bd398c8fac6614",
+  "started" : "2014-10-22T03:56:48.657+0300",
+  "vcsUrl" : "https://github.com/itamarb/maven-example.git",
   "governance" : {
     "blackDuckProperties" : {
+      "includePublishedArtifacts" : false,
       "runChecks" : false,
       "autoDiscardStaleComponentRequests" : false,
-      "autoCreateMissingComponentRequests" : false,
-      "includePublishedArtifacts" : false
+      "autoCreateMissingComponentRequests" : false
     }
   },
-  "started" : "2014-10-22T03:53:02.919+0300",
-  "statuses" : [ {
-    "comment" : "",
-    "timestamp" : "2014-10-22T03:53:02.919+0300",
-    "repository" : "ext-release-local",
-    "timestampDate" : 1413939182919,
-    "user" : "itamarb",
-    "status" : "Staged"
-  } ],
   "agent" : {
     "name" : "Jenkins",
     "version" : "1.583"
   },
-  "vcsUrl" : "https://github.com/itamarb/maven-example.git",
-  "buildRetention" : {
-    "count" : -1,
-    "buildNumbersNotToBeDiscarded" : [ ],
-    "deleteBuildArtifacts" : true
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.1.1"
   },
+  "statuses" : [ {
+    "comment" : "",
+    "timestamp" : "2014-10-22T03:56:48.657+0300",
+    "repository" : "ext-release-local",
+    "status" : "Staged",
+    "user" : "itamarb",
+    "timestampDate" : 1413939408657
+  } ],
   "licenseControl" : {
-    "runChecks" : false,
-    "licenseViolationsRecipientsList" : "",
-    "scopesList" : "",
     "includePublishedArtifacts" : false,
-    "autoDiscover" : true
+    "autoDiscover" : true,
+    "runChecks" : false,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
   },
-  "durationMillis" : 12224,
-  "vcsRevision" : "e4998f69505b3f20025cf842d14176ce5edd7eca",
+  "buildRetention" : {
+    "deleteBuildArtifacts" : true,
+    "count" : -1,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "durationMillis" : 12317,
   "properties" : {
     "java.vendor" : "Oracle Corporation",
     "sun.java.launcher" : "SUN_STANDARD",
-    "buildInfo.env.BUILD_TAG" : "jenkins-maven-example-80",
+    "buildInfo.env.BUILD_TAG" : "jenkins-maven-example-82",
     "sun.management.compiler" : "HotSpot 64-Bit Tiered Compilers",
     "buildInfo.env.PP22_EXE4J_JAVA_HOME" : "C:\\software\\Java\\jdk1.7.0_67",
     "buildInfo.env.ComSpec" : "C:\\Windows\\system32\\cmd.exe",
@@ -612,10 +612,10 @@
     "user.name" : "Itamar",
     "user.language.format" : "he",
     "buildInfo.env.PROMPT" : "$P$G",
-    "buildInfo.env.buildInfoConfig.propertiesFile" : "C:\\Users\\Itamar\\AppData\\Local\\Temp\\buildInfo3228499698239094868.properties",
+    "buildInfo.env.buildInfoConfig.propertiesFile" : "C:\\Users\\Itamar\\AppData\\Local\\Temp\\buildInfo3282378169761731704.properties",
     "guice.disable.misplaced.annotation.check" : "true",
-    "buildInfo.env.POM_VERSION" : "3",
-    "buildInfo.env.BUILD_URL" : "http://localhost:8080/job/maven-example/80/",
+    "buildInfo.env.POM_VERSION" : "3.1",
+    "buildInfo.env.BUILD_URL" : "http://localhost:8080/job/maven-example/82/",
     "user.language" : "en",
     "buildInfo.env.JENKINS_HOME" : "C:\\Users\\Itamar\\.jenkins",
     "sun.boot.library.path" : "C:\\Software\\Java\\jdk1.7.0_67\\jre\\bin",
@@ -625,12 +625,12 @@
     "buildInfo.env.VBOX_MSI_INSTALL_PATH" : "C:\\Program Files\\Oracle\\VirtualBox\\",
     "buildInfo.env.HUDSON_URL" : "http://localhost:8080/",
     "buildInfo.env.WORKSPACE" : "C:\\Users\\Itamar\\.jenkins\\jobs\\maven-example\\workspace",
-    "buildInfo.env.HUDSON_COOKIE" : "1835398f-898f-4167-aec7-c7f8dc5891c3",
+    "buildInfo.env.HUDSON_COOKIE" : "9aabd146-faa6-4925-846a-298838630bc0",
     "java.version" : "1.7.0_67",
     "user.timezone" : "Asia/Jerusalem",
     "buildInfo.env.JENKINS_SERVER_COOKIE" : "cd8e644d6357079c",
     "buildInfo.env.ProgramFiles" : "C:\\Program Files",
-    "buildInfo.env.BUILD_ID" : "2014-10-22_03-52-57",
+    "buildInfo.env.BUILD_ID" : "2014-10-22_03-56-41",
     "sun.arch.data.model" : "64",
     "buildInfo.env.OS" : "Windows_NT",
     "buildInfo.env.POM_GROUPID" : "org.jfrog.test",
@@ -678,9 +678,9 @@
     "buildInfo.env.PATH+JDK" : "C:\\Software\\Java\\jdk1.7.0_67/bin",
     "buildInfo.env.HOME" : "C:\\Users\\Itamar",
     "user.home" : "C:\\Users\\Itamar",
-    "buildInfo.env.BUILDINFO_PROPFILE" : "C:\\Users\\Itamar\\AppData\\Local\\Temp\\buildInfo3228499698239094868.properties",
+    "buildInfo.env.BUILDINFO_PROPFILE" : "C:\\Users\\Itamar\\AppData\\Local\\Temp\\buildInfo3282378169761731704.properties",
     "buildInfo.env.CommonProgramW6432" : "C:\\Program Files\\Common Files",
-    "buildInfo.env.GIT_COMMIT" : "e4998f69505b3f20025cf842d14176ce5edd7eca",
+    "buildInfo.env.GIT_COMMIT" : "285d9927121f9bd129ef7ea2b4bd398c8fac6614",
     "java.specification.vendor" : "Oracle Corporation",
     "buildInfo.env.LOGONSERVER" : "\\\\MicrosoftAccount",
     "CLASSPATH" : "",
@@ -694,8 +694,8 @@
     "buildInfo.env.PROCESSOR_LEVEL" : "6",
     "maven.home" : "C:\\Software\\Maven\\apache-maven-3.1.1",
     "java.runtime.name" : "Java(TM) SE Runtime Environment",
-    "buildInfo.env.GIT_PREVIOUS_COMMIT" : "e4998f69505b3f20025cf842d14176ce5edd7eca",
-    "sun.java.command" : "jenkins.maven3.agent.Maven31Main C:\\Software\\Maven\\apache-maven-3.1.1 C:\\Users\\Itamar\\.jenkins\\war\\WEB-INF\\lib\\remoting-2.46.jar C:\\Users\\Itamar\\.jenkins\\plugins\\maven-plugin\\WEB-INF\\lib\\maven31-interceptor-1.5.jar C:\\Users\\Itamar\\.jenkins\\plugins\\maven-plugin\\WEB-INF\\lib\\maven3-interceptor-commons-1.5.jar 52930",
+    "buildInfo.env.GIT_PREVIOUS_COMMIT" : "285d9927121f9bd129ef7ea2b4bd398c8fac6614",
+    "sun.java.command" : "jenkins.maven3.agent.Maven31Main C:\\Software\\Maven\\apache-maven-3.1.1 C:\\Users\\Itamar\\.jenkins\\war\\WEB-INF\\lib\\remoting-2.46.jar C:\\Users\\Itamar\\.jenkins\\plugins\\maven-plugin\\WEB-INF\\lib\\maven31-interceptor-1.5.jar C:\\Users\\Itamar\\.jenkins\\plugins\\maven-plugin\\WEB-INF\\lib\\maven3-interceptor-commons-1.5.jar 52394",
     "java.class.path" : "C:\\Users\\Itamar\\.jenkins\\plugins\\maven-plugin\\WEB-INF\\lib\\maven31-agent-1.5.jar;C:\\Software\\Maven\\apache-maven-3.1.1\\boot\\plexus-classworlds-2.5.1.jar;C:\\Software\\Maven\\apache-maven-3.1.1/conf/logging",
     "buildInfo.env.Path" : "C:\\Software\\Maven\\apache-maven-3.1.1/bin;C:\\Software\\Java\\jdk1.7.0_67/bin;C:\\Software\\Java\\jdk1.7.0_67/bin;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.4.3\\;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.4.3\\Doctrine extensions for PHP\\;C:\\Program Files\\nodejs\\;C:\\Software\\NuGet;C:\\Software\\curl\\7.33;C:\\Software\\Maven\\apache-maven-3.2.1\\bin;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\OpenVPN\\bin;C:\\Software\\Gradle\\gradle-1.7\\bin;C:\\Ruby193\\bin;C:\\Users\\Itamar\\AppData\\Roaming\\npm",
     "java.vm.specification.name" : "Java Virtual Machine Specification",
@@ -707,7 +707,7 @@
     "buildInfo.env.windir" : "C:\\Windows",
     "java.io.tmpdir" : "C:\\Users\\Itamar\\AppData\\Local\\Temp\\",
     "buildInfo.env.COMPUTERNAME" : "ITAMAR",
-    "buildInfo.env.BUILD_DISPLAY_NAME" : "#80",
+    "buildInfo.env.BUILD_DISPLAY_NAME" : "#82",
     "PATH+MAVEN" : "C:\\Software\\Maven\\apache-maven-3.1.1/bin",
     "java.vendor.url.bug" : "http://bugreport.sun.com/bugreport/",
     "buildInfo.env.NODE_NAME" : "master",
@@ -727,7 +727,7 @@
     "buildInfo.env.CommonProgramFiles" : "C:\\Program Files\\Common Files",
     "file.encoding" : "Cp1255",
     "maven3.interceptor" : "C:\\Users\\Itamar\\.jenkins\\plugins\\maven-plugin\\WEB-INF\\lib\\maven31-interceptor-1.5.jar",
-    "buildInfo.env.BUILD_NUMBER" : "80",
+    "buildInfo.env.BUILD_NUMBER" : "82",
     "maven3.interceptor.common" : "C:\\Users\\Itamar\\.jenkins\\plugins\\maven-plugin\\WEB-INF\\lib\\maven3-interceptor-commons-1.5.jar",
     "buildInfo.env.USERDOMAIN_ROAMINGPROFILE" : "ITAMAR",
     "buildInfo.env.ProgramW6432" : "C:\\Program Files",
