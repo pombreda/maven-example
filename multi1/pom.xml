@@ -86,9 +86,10 @@
         </dependency>
 		<dependency>
     <groupId>org.jfrog.test</groupId>
-    <artifactId>multi2</artifactId>
-    <version>2.23-SNAPSHOT</version>
+    <artifactId>multi1</artifactId>
+    <version>3</version>
 </dependency>
+
 
     </dependencies>
 
